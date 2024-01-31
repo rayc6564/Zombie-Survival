@@ -17,7 +17,7 @@ GREY = (128,128,128)
 
 MAX_BULLET = 3
 
-BULLET_SPEED = 2050, 30
+BULLET_SPEED = 20
 
 BULLET_IMAGE = pygame.image.load(os.path.join('image', 'bullet.png'))
 BULLET = pygame.transform.scale(BULLET_IMAGE, (50, 30))
